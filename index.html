@@ -169,6 +169,24 @@
         let message = document.getElementById("messageBox");
         message.innerHTML = homeScript;
 
+        let textFieldName = document.getElementById("name");
+        let textFieldWeight = document.getElementById("weight");
+        let textFieldHeight = document.getElementById("height");
+        let messageArea = document.getElementById("messageArea");
+
+        const resetFields = () => {
+            textFieldName.value = '';
+            textFieldWeight.value = '';
+            textFieldHeight.value = '';
+            messageArea.value = '';
+        }
+
+        window.onload = () => {
+            resetFields()
+        }
+
+
+
         function styleControlRevert() {
             let message = document.getElementById("messageBox");
             let textFieldName = document.getElementById("name");
