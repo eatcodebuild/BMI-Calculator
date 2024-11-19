@@ -29,6 +29,17 @@
             background-attachment: fixed;
             background-repeat: no-repeat;
             background-size: cover;
+            margin: 0px 10px;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .flex-centered {
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         .bg-box {
@@ -119,21 +130,21 @@
         <div class="bg-box">
             <div class="boxCenter">  
                 <div>
-                    <h1>Online BMI Calculator</h1><br>
+                    <h1 class="text-center">Online BMI Calculator</h1><br>
                 </div> 
-                <div>
+                <div class="flex-centered">
                     <label for="name">Enter your name:</label>
                     <input placeholder="John Smith" type="text" id="name"><br><br>
                 </div>
-                <div>
+                <div class="flex-centered">
                     <label for="height">Enter your height (m):</label>
                     <input placeholder="1.76" type="text" id="height"><br><br>
                 </div>
-                <div>
+                <div class="flex-centered">
                     <label for="weight">Enter your weight (kg):</label>
                     <input placeholder="75" type="text" id="weight"><br><br><br>
                 </div>
-                <div>
+                <div class="flex-centered">
                     <button class="myBtn" onclick="showMessage()">Calculate BMI</button>
                     <button class="myBtn" onclick="styleControlRevert()">Reset</button><br><br><br>
                 </div>
