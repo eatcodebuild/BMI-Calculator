@@ -130,8 +130,15 @@
         .mb-4 {
             margin-bottom: 30px;
         }
+
+        .me-3 {
+            margin-right: 10px;
+        }
                 
     </style>
+
+<script async src="https://tally.so/widgets/embed.js"></script>
+
 </head>
 <body>
     <div class="flex-center">
@@ -141,20 +148,20 @@
                     <h1 class="text-center">Online BMI Calculator</h1><br>
                 </div> 
                 <div class="flex-centered mb-3">
-                    <label for="name">Enter your name:</label>
+                    <label class="me-3" for="name">Enter your name:</label>
                     <input placeholder="John Smith" type="text" id="name"><br><br>
                 </div>
                 <div class="flex-centered mb-3">
-                    <label for="height">Enter your height (m):</label>
+                    <label class="me-3" for="height">Enter your height (m):</label>
                     <input placeholder="1.76" type="text" id="height"><br><br>
                 </div>
                 <div class="flex-centered mb-3">
-                    <label for="weight">Enter your weight (kg):</label>
+                    <label class="me-3" for="weight">Enter your weight (kg):</label>
                     <input placeholder="75" type="text" id="weight"><br><br><br>
                 </div>
                 <div class="flex-centered mb-4">
-                    <button style="margin-right: 10px;" class="myBtn" onclick="showMessage()">Calculate BMI</button>
-                    <button class="myBtn" onclick="styleControlRevert()">Reset</button><br><br><br>
+                    <button class="myBtn me-3" onclick="showMessage()">Calculate BMI</button>
+                    <button class="myBtn" style="margin-right: 10px;" onclick="styleControlRevert()">Reset</button><br><br><br>
                 </div>
                 <div id="messageArea" class="textBox">
                     <p id="messageBox" style="margin: 0; color: rgba(0, 0, 0, 0.247);"></p>
@@ -162,6 +169,7 @@
             </div>
         </div>
     </div>
+
 
     <script>
         
