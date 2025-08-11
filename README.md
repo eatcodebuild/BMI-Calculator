@@ -20,10 +20,6 @@ This repository contains a Body Mass Index (BMI) Calculator built as a web appli
 
 - **BMI Calculation:**
   - Users can input their weight (in kilograms) and height (in centimeters).
-  - The application calculates BMI using the formula:  
-    \[
-    \text{BMI} = \frac{\text{weight (kg)}}{\left(\frac{\text{height (cm)}}{100}\right)^2}
-    \]
   - Displays the calculated BMI along with a corresponding health category (Underweight, Normal, Overweight, Obese).
 
 - **Responsive Design:**
